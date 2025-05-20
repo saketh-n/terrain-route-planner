@@ -1,9 +1,14 @@
-import './App.css'
+import React from 'react';
+import TerrainGrid from './components/TerrainGrid';
+import './App.css';
 
-export default function App() {
+function App() {
   return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit
-    </main>
-  )
+    <div className="app">
+      <h1>Terrain Pathfinder</h1>
+      <TerrainGrid />
+    </div>
+  );
 }
+
+export default App;

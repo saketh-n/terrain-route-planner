@@ -1,0 +1,25 @@
+.transport-select {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.transport-select label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.transport-select label:hover {
+  background-color: #e0e0e0;
+}
+
+.transport-select input[type="radio"] {
+  margin: 0;
+} 
